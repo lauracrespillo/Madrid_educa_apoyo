@@ -1,0 +1,21 @@
+runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configurar repositorio original
+        run: |
+          git remote add upstream https://github.com/herasr/Madrid-Educa-Apoyo
+          git fetch upstream
+
+      - name: Fusionar cambios
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git merge upstream/main
+
+      - name: Actualizar segundo repositorio
+        run: git push origin main
