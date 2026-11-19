@@ -8,7 +8,6 @@
 [![Datos Abiertos CAM](https://img.shields.io/badge/datos-Portal%20Datos%20Abiertos%20CAM%20(CC%20BY%204.0)-1d4ed8.svg)](#-datos-cargados-y-procedencia)
 [![Demo GitHub Pages](https://img.shields.io/badge/demo%20p%C3%BAblica-GitHub%20Pages-059669.svg)](https://herasr.github.io/Madrid-Educa-Apoyo/)
 
----
 
 ## 🌐 Demo pública (GitHub Pages)
 
